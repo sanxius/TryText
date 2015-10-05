@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zra-3h-hRo">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Play Movie Swift-->
+        <scene sceneID="SlG-3f-JIS">
+            <objects>
+                <viewController id="gSo-6s-BD7" customClass="playMovieSwift" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YX0-vO-FXb"/>
+                        <viewControllerLayoutGuide type="bottom" id="p2w-hF-BRt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tyo-pv-qxh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3r3-eU-X5k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="960" y="1737"/>
+        </scene>
+        <!--Info-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="provaLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="afh-lR-iiJ">
+                                <rect key="frame" x="20" y="415" width="560" height="200"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ZZ-Vg-Xxe">
+                                <rect key="frame" x="20" y="72" width="560" height="334"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="334" id="Mlt-Yb-I8D"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4ZZ-Vg-Xxe" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="8" symbolic="YES" id="3Ty-MM-M1c"/>
+                            <constraint firstItem="4ZZ-Vg-Xxe" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="7hJ-VB-K89"/>
+                            <constraint firstItem="4ZZ-Vg-Xxe" firstAttribute="trailing" secondItem="afh-lR-iiJ" secondAttribute="trailing" id="Ar8-ti-AUI"/>
+                            <constraint firstAttribute="centerX" secondItem="afh-lR-iiJ" secondAttribute="centerX" id="EPL-0b-aep"/>
+                            <constraint firstItem="afh-lR-iiJ" firstAttribute="top" secondItem="4ZZ-Vg-Xxe" secondAttribute="bottom" constant="9" id="RGc-gq-IXE"/>
+                            <constraint firstAttribute="centerX" secondItem="4ZZ-Vg-Xxe" secondAttribute="centerX" id="kyZ-Xt-c0g"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Info" image="info25x25.png" id="1I7-5m-T9S" userLabel="Info"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1171" y="-162"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="UEQ-gd-gNJ">
+            <objects>
+                <navigationController id="Zra-3h-hRo" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iKB-JW-wEg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="49e-Tb-3d3" kind="relationship" relationship="rootViewController" id="u8l-WO-J9u"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oiC-2e-tiC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-294" y="-162"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" customClass="TabBarController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="JGq-CI-YNx">
+                        <nil key="title"/>
+                    </navigationItem>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="1Us-Ho-dg5" kind="relationship" relationship="viewControllers" id="Wut-P1-LdX"/>
+                        <segue destination="Tqh-zi-tBk" kind="relationship" relationship="viewControllers" id="frx-wk-tny"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="eYA-m6-ypD"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="426" y="-162"/>
+        </scene>
+        <!--VidSelection-->
+        <scene sceneID="1fd-bS-KtG">
+            <objects>
+                <viewController id="Tqh-zi-tBk" userLabel="VidSelection" customClass="movieController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="APz-5H-LGZ" userLabel="TableScene"/>
+                        <viewControllerLayoutGuide type="bottom" id="c2x-4S-mpK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jR1-GU-frC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="12d-bL-l73">
+                                <rect key="frame" x="161" y="64" width="278" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="278" id="sow-qY-UpC"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Video"/>
+                                    <segment title="Testo"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedControlChanged" destination="Tqh-zi-tBk" eventType="valueChanged" id="4P6-uN-nEZ"/>
+                                </connections>
+                            </segmentedControl>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="26" translatesAutoresizingMaskIntoConstraints="NO" id="Z69-u9-moo">
+                                <rect key="frame" x="0.0" y="93" width="600" height="487"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="vocemovieCell" rowHeight="5" id="TvW-NJ-bfM">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TvW-NJ-bfM" id="5cn-pt-7p5">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Tqh-zi-tBk" id="IRE-Av-Q3w"/>
+                                    <outlet property="delegate" destination="Tqh-zi-tBk" id="hGD-mz-rzV"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="12d-bL-l73" firstAttribute="top" secondItem="APz-5H-LGZ" secondAttribute="bottom" id="9q9-XJ-ZZn"/>
+                            <constraint firstItem="12d-bL-l73" firstAttribute="centerX" secondItem="jR1-GU-frC" secondAttribute="centerX" id="glo-fp-ef7"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="1" title="Filmati" image="film_clapper-25.png" id="hPV-nW-UK1"/>
+                    <connections>
+                        <outlet property="segmentControl" destination="12d-bL-l73" id="ZFS-Hh-2Rk"/>
+                        <outlet property="tableView" destination="Z69-u9-moo" id="fed-GT-Cpe"/>
+                        <segue destination="gSo-6s-BD7" kind="show" identifier="segueVideo" id="2fA-b0-u29"/>
+                        <segue destination="lPf-3r-Yc3" kind="show" identifier="segueTesto" id="ARu-cX-g0D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JOP-eo-gvt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="426" y="641"/>
+        </scene>
+        <!--INTRO-->
+        <scene sceneID="vCf-zV-lap">
+            <objects>
+                <viewController id="1Us-Ho-dg5" customClass="introMovie" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="scg-w8-JSB"/>
+                        <viewControllerLayoutGuide type="bottom" id="X4e-ri-Ez9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="y85-xW-NUS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="RosellaPNG.png" translatesAutoresizingMaskIntoConstraints="NO" id="S20-RZ-X9Z">
+                                <rect key="frame" x="0.0" y="96" width="620" height="455"/>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="EDF-US-oBY">
+                                <rect key="frame" x="161" y="64" width="278" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="278" id="3Xs-wy-xva"/>
+                                    <constraint firstAttribute="height" constant="28" id="PMA-68-qDd"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="LIS"/>
+                                    <segment title="Testo"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedControlChanged" destination="1Us-Ho-dg5" eventType="valueChanged" id="Zjx-jG-3oC"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="S20-RZ-X9Z" firstAttribute="centerX" secondItem="y85-xW-NUS" secondAttribute="centerX" id="2v6-Cc-MiA"/>
+                            <constraint firstItem="S20-RZ-X9Z" firstAttribute="centerY" secondItem="y85-xW-NUS" secondAttribute="centerY" id="Ins-Ft-2T4"/>
+                            <constraint firstItem="EDF-US-oBY" firstAttribute="centerX" secondItem="y85-xW-NUS" secondAttribute="centerX" id="Wt0-kW-ZrL"/>
+                            <constraint firstItem="EDF-US-oBY" firstAttribute="top" secondItem="scg-w8-JSB" secondAttribute="bottom" id="vsM-DV-jov"/>
+                            <constraint firstItem="S20-RZ-X9Z" firstAttribute="top" secondItem="EDF-US-oBY" secondAttribute="bottom" constant="4" id="zbL-7m-ag7"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Intro" image="home.png" id="yYg-fO-B3r"/>
+                    <navigationItem key="navigationItem" title="INTRO" id="MpG-Ra-XO0"/>
+                    <connections>
+                        <outlet property="introPush" destination="S20-RZ-X9Z" id="fDx-Qu-7IZ"/>
+                        <outlet property="segmentControl" destination="EDF-US-oBY" id="hXj-h7-SOh"/>
+                        <segue destination="gSo-6s-BD7" kind="show" identifier="segueIntroMovie" id="hUq-co-pAI"/>
+                        <segue destination="lPf-3r-Yc3" kind="show" identifier="segueIntroTesto" id="m12-Of-Rzz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Dn-vF-bey" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-294" y="641"/>
+        </scene>
+        <!--TextController-->
+        <scene sceneID="Vrm-NR-LTA">
+            <objects>
+                <viewController id="lPf-3r-Yc3" userLabel="TextController" customClass="TextControllerSwift" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9ec-ON-z33"/>
+                        <viewControllerLayoutGuide type="bottom" id="rkp-Ju-Gje"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jx1-Pu-moW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhg-td-Jec" customClass="testoMuseo">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="1895"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="dhg-td-Jec" secondAttribute="trailing" id="Wrf-us-Rgq"/>
+                            <constraint firstItem="dhg-td-Jec" firstAttribute="leading" secondItem="Jx1-Pu-moW" secondAttribute="leading" id="hjR-BF-dbc"/>
+                            <constraint firstItem="dhg-td-Jec" firstAttribute="top" secondItem="Jx1-Pu-moW" secondAttribute="top" id="k6J-uL-Pw5"/>
+                            <constraint firstAttribute="bottom" secondItem="dhg-td-Jec" secondAttribute="bottom" id="qt8-jH-2QX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="testoMuseo" destination="dhg-td-Jec" id="HVU-vX-cJp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mbH-sB-Lo8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="42" y="1737"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="RosellaPNG.png" width="640" height="480"/>
+        <image name="film_clapper-25.png" width="25" height="25"/>
+        <image name="home.png" width="25" height="25"/>
+        <image name="info25x25.png" width="25" height="25"/>
+        <image name="provaLogo.png" width="720" height="200"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="ARu-cX-g0D"/>
+        <segue reference="2fA-b0-u29"/>
+    </inferredMetricsTieBreakers>
+</document>
